@@ -10,32 +10,32 @@
 <body>
     <div class="container">
         <div class="display">
-            <input type="text" id="display" disabled value="1+2">
+            <input type="text" id="display" disabled>
         </div>
         <div class="buttons">
             <div class="buttonsRow">
-                <button onclick="buttonPress('7')">7</button>
-                <button onclick="buttonPress('8')">8</button>
-                <button onclick="buttonPress('9')">9</button>
-                <button onclick="buttonPress('*')">*</button>
+                <button onclick="numPress('7')">7</button>
+                <button onclick="numPress('8')">8</button>
+                <button onclick="numPress('9')">9</button>
+                <button onclick="operPress('*')">*</button>
             </div>
             <div class="buttonsRow">
-                <button onclick="buttonPress('4')">4</button>
-                <button onclick="buttonPress('5')">5</button>
-                <button onclick="buttonPress('6')">6</button>
-                <button onclick="buttonPress('-')">-</button>
+                <button onclick="numPress('4')">4</button>
+                <button onclick="numPress('5')">5</button>
+                <button onclick="numPress('6')">6</button>
+                <button onclick="operPress('-')">-</button>
             </div>
             <div class="buttonsRow">
-                <button onclick="buttonPress('1')">1</button>
-                <button onclick="buttonPress('2')">2</button>
-                <button onclick="buttonPress('3')">3</button>
-                <button onclick="buttonPress('+')">+</button>
+                <button onclick="numPress('1')">1</button>
+                <button onclick="numPress('2')">2</button>
+                <button onclick="numPress('3')">3</button>
+                <button onclick="operPress('+')">+</button>
             </div>
             <div class="buttonsRow">
-                <button onclick="buttonPress('C')">C</button>
-                <button onclick="buttonPress('0')">0</button>
-                <button onclick="buttonPress('=')">=</button>
-                <button onclick="buttonPress('/')">/</button>
+                <button onclick="clearPress('C')">C</button>
+                <button onclick="numPress('0')">0</button>
+                <button onclick="equalPress()">=</button>
+                <button onclick="operPress('/')">/</button>
             </div>
         </div>
     </div>
